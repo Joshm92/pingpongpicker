@@ -1,0 +1,13 @@
+
+/*setup reset removes default browser styling*/
+@import 'reset.css';
+
+/*atoms*/
+@import 'typography.css';
+@import 'buttons.css';
+
+/*molecules*/
+@import 'images.css';
+
+
+@import 'main-partials.css'
