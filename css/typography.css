@@ -12,7 +12,7 @@
 button {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .footer-text {
@@ -25,3 +25,7 @@ button {
     line-height: 3rem;
 }
 
+input {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
