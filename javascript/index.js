@@ -11,21 +11,24 @@
     let teamp = d.getElementById("team-list")
 
 
-    //WORKING FUNCTION BELOW FOR ADD PLAYER BUTTON BUT IT'S NOT ADDING TO AN ARRAY JUST A LIST ITEM.
+    //WORKING FUNCTION BELOW FOR ADD PLAYER BUTTON 
 
     
     const list = [];
     
     addButton.addEventListener("click", () => {
         
+        
         let li = d.createElement('li');
         li.textContent = input.value;
         li.classList.add("list-group-item");
-        // player.value = "u";
-        player.focus();
+        // player.value = "";
+        input.focus(); // adds blue border when clicked
         ul.prepend(li);
 
         list.push (input.value)
+       
+        input.value="";
 
         console.log(list);
 
@@ -33,7 +36,7 @@
   });
 
 
-    //WORKING FUNCTION BELOW FOR GENERATE TEAM BUTTON BUT I DON'T KNOW HOW TO GET THE VALUES INTO THE ARRAY TO MAP OVER TO THEIR ELEMENTS.
+    //WORKING FUNCTION BELOW FOR GENERATE TEAM BUTTON 
 
     createButton.addEventListener("click", () => {
 
@@ -58,7 +61,6 @@
         let teamlist = d.createElement('p');
         teamlist.textContent = pair;
         teamlist.classList.add("list-group-item");
-        // player.value = "u";
         player.focus();
         teamp.prepend(teamlist);
       }
