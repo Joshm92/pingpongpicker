@@ -27,7 +27,7 @@
         ul.prepend(li);
 
         list.push (input.value)
-       
+
         input.value="";
 
         console.log(list);
@@ -61,7 +61,6 @@
         let teamlist = d.createElement('p');
         teamlist.textContent = pair;
         teamlist.classList.add("list-group-item");
-        player.focus();
         teamp.prepend(teamlist);
       }
 
