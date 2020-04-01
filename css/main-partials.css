@@ -46,6 +46,19 @@ input {
     text-align: center;
 }
 
+.team-list {
+    line-height: 3rem;
+    font-family: monospace;
+}
+
+.teamsdisplay {
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-top: 5.5rem;
+}
+
 .name-display {
     padding: 10px;
     background-color: green;
