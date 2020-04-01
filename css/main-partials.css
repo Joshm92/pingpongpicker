@@ -56,7 +56,7 @@ input {
     text-align: center;
     border-radius: 5px;
     background-color: #f2f2f2;
-    margin-top: 5.5rem;
+    /* margin-top: 5.5rem; */
 }
 
 .name-display {
@@ -69,3 +69,4 @@ input {
     padding: 30px;
     background-color: grey;
 }
+
