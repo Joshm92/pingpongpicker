@@ -16,6 +16,12 @@
     src: url("../fonts/Nunito/Nunito-Regular.ttf") format('truetype')
 }
 
+@font-face{
+    font-family:"AnotherHand";
+    font-weight:normal;
+    src: url("../fonts/Just_Another_Hand/JustAnotherHand-Regular.ttf") format('truetype')
+}
+
 .page-heading {
     font-family: "FasterOne","Arial", "Sans-Serif";
     font-size: 6rem;
@@ -35,8 +41,9 @@ button {
 }
 
 .footer-text {
+    font-family: "AnotherHand","Arial", "Sans-Serif";
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -59,7 +66,6 @@ button {
 input {
     font-size: 2rem;
 }
-
 
 ::placeholder {
     font-size: 1rem;
