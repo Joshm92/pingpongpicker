@@ -24,3 +24,28 @@
 
 
   }
+
+
+  @media only screen and (max-width: 375px) {
+    
+
+    ::placeholder {
+        font-size: 0.6rem;
+        font-style: italic;
+        color: red;
+    }
+
+    .your-teams {
+        font-family: "Nunito-Regular","Arial", "Sans-Serif";
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    .team-list {
+        font-family: "Nunito-Regular","Arial", "Sans-Serif";
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+  }
