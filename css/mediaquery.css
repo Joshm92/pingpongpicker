@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+    /* body {
+      background-color: lightblue;
+    } */
+
+    .page-heading {
+        font-family: "FasterOne","Arial", "Sans-Serif";
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+    }
+
+    .header-image {
+        max-width: 8rem;
+        position: relative;
+        float: right;
+    }
+
+    ::placeholder {
+        font-size: 0.8rem;
+        font-style: italic;
+        color: red;
+    }
+
+
+  }

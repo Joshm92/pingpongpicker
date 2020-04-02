@@ -10,4 +10,5 @@
 @import 'images.css';
 
 
-@import 'main-partials.css'
+@import 'main-partials.css';
+@import 'mediaquery.css';
