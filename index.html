@@ -8,13 +8,79 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--favicon.ico-->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <title>Ping Pong Picker</title>
+        <title>YOUR SERVE! » The Ping Pong Team Generator</title>
         <link rel="stylesheet" href="css/style.css">
+        <script defer src="javascript/index.js"></script>
+        <script defer src="javascript/reset.js"></script>
     </head>
+    <body>
+        <div class="content">
 
-    <body><div class="content">
+    <!-- HEADER ELEMENTS BELOW -->
+        <header class="main-header">
+
+            <h3 class="page-heading">YOUR SERVE!</h3>
+            <img src="./images/ping-pong-311935_1280.png" class="header-image" alt="">
+
+        </header>
+
+    <!-- SECTION 1 PLAYER NAMES INPUT -->  
+        <section class="playernames-input">
+
+            <h1 class="entername-text">Enter Player Name:</h1>
+
+                <input type="text" id="player" class="player-entry" placeholder="Insert each player in turn and click add player" onfocus="placeholder=''"></input>
+
+                    <button class="button" id="addnamebutton">ADD PLAYER</button>
+
+        </section>
+
+
+    <!-- SECTION 2 PLAYER NAMES DISPLAY -->  
+
+        <section class="playernames-display">
+
+            <div class="namesdisplay">
+                <ul class="list-group" id="list">
+                    <!-- <li>Lin</li>
+                    <li>Bob</li>
+                    <li>Bill</li>
+                    <li>Jane</li>
+                    <li>Trevor</li>
+                    <li>Ben</li> -->
+                </ul>
+            </div>
+
+            <button class="button" id="createbutton">CREATE TEAMS</button>
+
+        </section>
+
+
+    <!-- SECTION 3 TEAM NAMES DISPLAY -->  
+
+        <section class="team-names">
+
+            <div class="teamsdisplay">
+                <h1 class="your-teams">Your teams are:</h1>
+                <p class="team-list" id="team-list">
+                   
+                </p>
+            </div>
+
+            <button class="resetbtn" id="reset-btn">RESET</button>
+
+        </section>
+
+        
+
+
+    <!-- FOOTER BELOW -->  
+        <footer class="main-footer">
+            <p class="footer-text">Made by Josh 2020</p>
+        </footer>
+
+        <div class="content">
 
     </body>
-    </head>
-
+    
 </html>
