@@ -18,8 +18,9 @@
 
 .page-heading {
     font-family: "FasterOne","Arial", "Sans-Serif";
-    font-size: 5.5rem;
+    font-size: 6rem;
     color: white;
+    text-align: center;
 }
 
 .entername-text {
