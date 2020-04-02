@@ -2,4 +2,20 @@ button {
     background-color: green;
     padding:20px;
     margin-top: 10px;
+    border-radius: 1rem;
 }
+
+#addnamebutton {
+    
+    margin-top: 50px;
+    
+}
+
+.resetbtn {
+    background-color: red;
+    padding:20px;
+    margin-top: 40px;
+    color: black;
+    border-radius: 1rem;
+}
+
