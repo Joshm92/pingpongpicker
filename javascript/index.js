@@ -8,7 +8,7 @@
 
     let createButton = d.getElementById("createbutton");
 
-    let teamp = d.getElementById("team-list")
+    let teamp = d.getElementById("team-list");
 
 
     //WORKING FUNCTION BELOW FOR ADD PLAYER BUTTON 
@@ -63,8 +63,7 @@
         teamlist.classList.add("list-group-item");
         teamp.prepend(teamlist);
       }
-
-
+      
     });
 
 
