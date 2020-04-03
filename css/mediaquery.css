@@ -42,9 +42,7 @@
     }
 
     .team-list {
-        font-family: "Nunito-Regular","Arial", "Sans-Serif";
-        font-weight: bold;
-        text-transform: uppercase;
+        font-family: "Nunito-Light","Arial", "Sans-Serif";
         font-size: 1rem;
     }
 
