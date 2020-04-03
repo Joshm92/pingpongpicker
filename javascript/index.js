@@ -30,7 +30,7 @@
 
         input.value="";
 
-        console.log(list);
+        // console.log(list);
 
         return list;
   });
