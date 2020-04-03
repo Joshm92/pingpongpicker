@@ -11,6 +11,12 @@
 }
 
 @font-face {
+    font-family:"Nunito-Light";
+    font-weight:normal;
+    src: url("../fonts/Nunito/Nunito-Light.ttf") format('truetype')
+}
+
+@font-face {
     font-family:"Nunito-Regular";
     font-weight:normal;
     src: url("../fonts/Nunito/Nunito-Regular.ttf") format('truetype')
@@ -55,11 +61,11 @@ button {
 .your-teams {
     font-family: "Nunito-Regular","Arial", "Sans-Serif";
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .team-list {
-    font-family: "Nunito-Regular","Arial", "Sans-Serif";
-    font-weight: bold;
+    font-family: "Nunito-Light","Arial", "Sans-Serif";
     /* text-transform: uppercase; */
 }
 
