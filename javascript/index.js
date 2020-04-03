@@ -48,7 +48,8 @@
 
       // as we need at least 2 players to form a pair
       while (names.length >= 2) { 
-        const pair = [names.pop() , names.pop()];
+        // const pair = [names.pop() , names.pop()];
+        const pair = `${names.pop()} ${"vs"} ${names.pop()}`;
 
         // Current pair
         console.log(pair);
@@ -63,7 +64,7 @@
         teamlist.classList.add("list-group-item");
         teamp.prepend(teamlist);
       }
-      
+
     });
 
 

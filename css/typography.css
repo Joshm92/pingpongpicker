@@ -60,7 +60,7 @@ button {
 .team-list {
     font-family: "Nunito-Regular","Arial", "Sans-Serif";
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 input {
