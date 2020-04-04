@@ -5,6 +5,11 @@ button {
     border-radius: 1rem;
 }
 
+button:hover {
+    border-color: teal;
+	}
+
+
 #addnamebutton {
     margin-top: 2rem;
     
