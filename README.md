@@ -47,6 +47,9 @@ As soon as I looked at the brief I knew that the JavaScript would need to involv
 
 <img src="./mockups/mockup_small.png" width="700">
 
+## Testing:
+I used the Google Dev Tools to test my site on various screen sizes. I've also tested the site across Firefox and Safari. 
+
 ## Further aims:
 **Delete/Edit player:** I would like to create an option to edit or delete a player once inputted by the user.
 
