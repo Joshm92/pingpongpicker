@@ -35,6 +35,23 @@ After looking at the brief and coming up with a scamp, I started to approach thi
 ## Programming approach:
 As soon as I looked at the brief I knew that the JavaScript would need to involve a math.random function. I started experimenting with the functionality by mocking up a simple HTML and Javascript file. This allowed me to try out and test code and make sense of what each bit of functionality had to do. Essentially to reach an MVP the tool will need to be able to: **Take a user input of multiple names** > **Store those names in an array** > **Shuffle the array and push out items into arrays of two names.**
 
-## Wireframes:
+## Wireframes Large/Medium/Small screen:
+![wireFrames](/designs/wireframe_large.png)
+![wireFrames](/designs/wireframe_medium.png)
+![wireFrames](/designs/wireframe_small.png)
 
+## Mockups Large/Medium/Small screen:
+<img src="./mockups/mockup_large.png" width="700">
 
+<img src="./mockups/mockup_medium.png" width="700">
+
+<img src="./mockups/mockup_small.png" width="700">
+
+## Further aims:
+**Delete/Edit player:** I would like to create an option to edit or delete a player once inputted by the user.
+
+**Shuffle button:** I would like to create a shuffle button to re-shuffle the players that have been generated.
+
+**Score record:** Recording scores for each player and marking who the winner is.
+
+**Dark mode:** I would like to have a toggle button that toggles the site between light and dark mode.
