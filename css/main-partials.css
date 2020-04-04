@@ -4,14 +4,14 @@
 }
 
 body {
-    background-color: white;
+    background-color: #E4E7EC;
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-header {
     padding: 3rem;
-    background-color: #315F43;
+    background-color: #13326B;
     filter: drop-shadow(2px 4px 6px black);
     margin-bottom: 4rem;
 }
@@ -20,7 +20,7 @@ body {
     padding: 3rem;
     text-align: center;
     border-radius: 1rem;
-    background-color: #f2f2f2;
+    background-color: #EF1F2C;
     margin-top: 5.5rem;
     
 }
@@ -64,5 +64,5 @@ input {
 
 .main-footer {
     padding: 1rem;
-    background-color: green;
+    background-color: #13326B;
 }

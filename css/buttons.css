@@ -1,5 +1,5 @@
 button {
-    background-color: green;
+    background-color: #13326B;
     padding:1rem;
     margin-top: 1rem;
     border-radius: 1rem;
@@ -11,7 +11,7 @@ button {
 }
 
 .resetbtn {
-    background-color: red;
+    background-color: #EF1F2C;
     padding:1.2rem;
     margin-top: 3rem;
     color: black;
