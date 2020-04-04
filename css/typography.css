@@ -28,6 +28,18 @@
     src: url("../fonts/Just_Another_Hand/JustAnotherHand-Regular.ttf") format('truetype')
 }
 
+@font-face{
+    font-family:"Kalam";
+    font-weight:normal;
+    src: url("../fonts/Kalam/Kalam-Regular.ttf") format('truetype')
+}
+
+@font-face{
+    font-family:"Kalam-Bold";
+    font-weight:normal;
+    src: url("../fonts/Kalam/Kalam-Bold.ttf") format('truetype')
+}
+
 .page-heading {
     font-family: "FasterOne","Arial", "Sans-Serif";
     font-size: 6rem;
@@ -36,7 +48,7 @@
 }
 
 .entername-text {
-    font-family: "Nunito-Regular","Arial", "Sans-Serif";
+    font-family: "Kalam","Arial", "Sans-Serif";
     font-size: 2rem;
 }
 
@@ -54,22 +66,23 @@ button {
 }
 
 .list-group {
-    font-family: "Nunito-Regular","Arial", "Sans-Serif";
+    font-family: "Kalam","Arial", "Sans-Serif";
     line-height: 3rem;
 }
 
 .your-teams {
-    font-family: "Nunito-Regular","Arial", "Sans-Serif";
+    font-family: "Kalam-Bold","Arial", "Sans-Serif";
     margin-bottom: 1rem;
     font-weight: bold;
 }
 
 .team-list {
-    font-family: "Nunito-Light","Arial", "Sans-Serif";
+    font-family: "Kalam","Arial", "Sans-Serif";
     /* text-transform: uppercase; */
 }
 
 input {
+    font-family: "Kalam","Arial", "Sans-Serif";
     font-size: 2rem;
 }
 
