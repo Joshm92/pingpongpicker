@@ -35,6 +35,12 @@ After looking at the brief and coming up with a scamp, I started to approach thi
 ## Programming approach:
 As soon as I looked at the brief I knew that the JavaScript would need to involve a math.random function. I started experimenting with the functionality by mocking up a simple HTML and Javascript file. This allowed me to try out and test code and make sense of what each bit of functionality had to do. Essentially to reach an MVP the tool will need to be able to: **Take a user input of multiple names** > **Store those names in an array** > **Shuffle the array and push out items into arrays of two names.** To get the 'vs' in between the two names I used interpolation.
 
+## Scamping
+My first plan of how the site might go together:
+
+
+<img src="./designs/yourserve_scamp.png" width="700">
+
 ## Wireframes Large/Medium/Small screen:
 ![wireFrames](/designs/wireframe_large.png)
 ![wireFrames](/designs/wireframe_medium.png)
