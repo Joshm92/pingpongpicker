@@ -54,7 +54,7 @@ My first plan of how the site might go together:
 <img src="./mockups/mockup_small.png" width="700">
 
 ## Testing:
-I used the Google Dev Tools to test my site on various screen sizes. I've also tested the site across Firefox and Safari. 
+I used the Google Dev Tools to test my site on various screen sizes. I've also tested the site across Chrome, Firefox and Safari. I also tested my site on the WAVE Web Accessibility Evaluation Tool.
 
 ## Further aims:
 **Delete/Edit player:** I would like to create an option to edit or delete a player once inputted by the user.
